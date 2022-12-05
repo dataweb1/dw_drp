@@ -1,0 +1,21 @@
+uuid: df903e14-f17e-49b7-97ce-d2f599f6156d
+langcode: nl
+status: true
+dependencies:
+  config:
+    - bo.bundle.footer
+    - field.storage.bo.field_text
+  module:
+    - text
+id: bo.footer.field_text
+field_name: field_text
+entity_type: bo
+bundle: footer
+label: Footer
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

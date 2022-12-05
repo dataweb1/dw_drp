@@ -1,0 +1,44 @@
+uuid: 35190c75-a47a-4893-9eac-1384b4680268
+langcode: nl
+status: true
+dependencies:
+  config:
+    - bo.bundle.slideshow
+    - field.field.bo.slideshow.field_images
+  module:
+    - media_library
+_core:
+  default_config_hash: NiqBJx6oSsbfp1W_0DgMPsdQPRkthcoSah0nud1Ra4k
+id: bo.slideshow.default
+targetEntityType: bo
+bundle: slideshow
+mode: default
+content:
+  field_images:
+    type: media_library_widget
+    weight: 6
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  size:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  type:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

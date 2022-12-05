@@ -1,0 +1,21 @@
+uuid: fb983fca-bd57-4ad8-b1c3-acb63c3e0ac9
+langcode: nl
+status: true
+dependencies:
+  config:
+    - bo.bundle.google_map
+    - field.storage.bo.field_address
+_core:
+  default_config_hash: Zt-rXWs8fT-4hzr_2VfkuWv54wX7yt88ut21scjQniQ
+id: bo.google_map.field_address
+field_name: field_address
+entity_type: bo
+bundle: google_map
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

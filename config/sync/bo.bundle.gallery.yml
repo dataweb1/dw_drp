@@ -1,0 +1,19 @@
+uuid: b9e74966-5e2c-4e48-b73f-9c5c07a17a30
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tUgm153AEnAFwwOethWOJ8urzWfuSWTNTXm9i8ltBEY
+id: gallery
+label: Gallery
+description: ''
+type: individual_element
+group: ''
+default: 1
+internal_title: 0
+override_title_label: ''
+icon: 'fa fa-images'
+collection: 0
+related_bundles:
+  - slideshow
+weight: '1'

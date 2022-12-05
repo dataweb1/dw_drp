@@ -1,0 +1,19 @@
+uuid: 1b565668-3f0d-442b-8ed6-e9eeff7b90a6
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Lbe75JevRvDx8sY_fRlBc07pKWP7_wNMFylxAaq9RPM
+id: image
+label: Image
+description: ''
+type: individual_element
+group: ''
+default: 1
+internal_title: 1
+override_title_label: ''
+icon: 'fa fa-image'
+collection:
+  enabled: 0
+related_bundles: null
+weight: '3'

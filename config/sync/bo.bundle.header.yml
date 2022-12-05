@@ -1,0 +1,17 @@
+uuid: 97e1f46c-b0a5-4c34-8286-1ce9778e6b34
+langcode: nl
+status: true
+dependencies: {  }
+id: header
+label: Hoofding
+description: ''
+type: project_element
+group: ''
+default: 0
+internal_title: 0
+override_title_label: ''
+icon: ''
+collection:
+  enabled: 0
+related_bundles: {  }
+weight: null

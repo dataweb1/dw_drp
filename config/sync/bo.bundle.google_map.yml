@@ -1,0 +1,19 @@
+uuid: 1a13f34c-0d3f-410f-9f88-808a425b1e64
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: C1YDJiUDcXo1M6YHslG8ykSlyUhHyRm8xyk7pCFyTB8
+id: google_map
+label: 'Google Map'
+description: ''
+type: individual_element
+group: ''
+default: 1
+internal_title: 0
+override_title_label: Name
+icon: 'fa fa-map-marker-alt'
+collection:
+  enabled: 0
+related_bundles: null
+weight: '8'

@@ -1,0 +1,29 @@
+uuid: 875ec604-9c7b-4df9-b641-c5abc8985521
+langcode: nl
+status: true
+dependencies:
+  config:
+    - bo.bundle.webform
+    - field.storage.bo.field_document
+    - media.type.document
+id: bo.webform.field_document
+field_name: field_document
+entity_type: bo
+bundle: webform
+label: Document
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

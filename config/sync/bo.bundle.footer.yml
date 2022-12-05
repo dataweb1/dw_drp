@@ -1,0 +1,17 @@
+uuid: 03536039-6650-4c64-a2c7-f021419f9f79
+langcode: nl
+status: true
+dependencies: {  }
+id: footer
+label: Footer
+description: ''
+type: project_element
+group: ''
+default: 0
+internal_title: 1
+override_title_label: ''
+icon: ''
+collection:
+  enabled: 0
+related_bundles: {  }
+weight: null

@@ -1,0 +1,24 @@
+uuid: 0fa7c52b-2ac3-4cb3-bd15-4a8f4faaeeee
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.bo
+  module:
+    - views
+  theme:
+    - dw_drp_base
+id: views_block__bo_overview_3
+theme: dw_drp_base
+region: footer
+weight: 0
+provider: null
+plugin: 'views_block:bo-overview'
+settings:
+  id: 'views_block:bo-overview'
+  label: 'BO: Footer'
+  label_display: '0'
+  provider: views
+  views_label: 'BO: Footer'
+  items_per_page: none
+visibility: {  }

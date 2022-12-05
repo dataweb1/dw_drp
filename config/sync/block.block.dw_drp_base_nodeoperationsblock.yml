@@ -1,0 +1,20 @@
+uuid: b2409a63-7bc1-4ba6-924c-2fc102a6f56e
+langcode: nl
+status: true
+dependencies:
+  module:
+    - bo
+  theme:
+    - dw_drp_base
+id: dw_drp_base_nodeoperationsblock
+theme: dw_drp_base
+region: highlighted
+weight: 0
+provider: null
+plugin: node_operations_block
+settings:
+  id: node_operations_block
+  label: 'Node Operations block'
+  label_display: '0'
+  provider: bo
+visibility: {  }

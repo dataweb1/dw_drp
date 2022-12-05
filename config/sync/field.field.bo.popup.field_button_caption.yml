@@ -1,0 +1,21 @@
+uuid: 15c506c5-f8c4-4059-a83f-921a4b1354c4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - bo.bundle.popup
+    - field.storage.bo.field_button_caption
+_core:
+  default_config_hash: zbFthCCwr_vpZP3B-7jzOYUDV31WKLpJhN7zqm2XJG4
+id: bo.popup.field_button_caption
+field_name: field_button_caption
+entity_type: bo
+bundle: popup
+label: 'Button caption'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

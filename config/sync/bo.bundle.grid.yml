@@ -1,0 +1,46 @@
+uuid: b2946067-f0d4-42a0-a622-96016266ed2c
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nXIUmSbk2qNmgzyu-GQUDfLNE0UJCK7XE4OA-ds8oyU
+id: grid
+label: Grid
+description: ''
+type: structure_element
+group: ''
+default: 0
+internal_title: 1
+override_title_label: ''
+icon: 'fa fa-th-large'
+collection:
+  enabled: 1
+  bundles:
+    card: 0
+    section: 1
+    slideshow: 1
+    tab: 0
+    table: 1
+    table_row: 0
+    tabs: 1
+    grid: 0
+    text: 1
+    quote: 1
+    video: 1
+    gallery: 1
+    accordion_item: 0
+    image: 1
+    accordion: 1
+    document: 1
+    title: 1
+    popup: 1
+    google_map: 1
+    cards: 1
+    webform: 1
+    article: 0
+  options:
+    label: Grid
+    max_element_count: ''
+    specific_view: bo__grid
+related_bundles: null
+weight: '-3'

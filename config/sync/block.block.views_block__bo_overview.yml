@@ -1,0 +1,24 @@
+uuid: 724e47ad-c462-4d61-a726-53ceafd8417c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.bo
+  module:
+    - views
+  theme:
+    - olivero
+id: views_block__bo_overview
+theme: olivero
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:bo-overview'
+settings:
+  id: 'views_block:bo-overview'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

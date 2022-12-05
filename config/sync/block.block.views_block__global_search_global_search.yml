@@ -1,0 +1,29 @@
+uuid: 9e5a1da7-07dd-4cc4-bc0c-f1d153661db2
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.global_search
+  module:
+    - system
+    - views
+  theme:
+    - dw_drp_base
+id: views_block__global_search_global_search
+theme: dw_drp_base
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:global_search-global_search'
+settings:
+  id: 'views_block:global_search-global_search'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/7

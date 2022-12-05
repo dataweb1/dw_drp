@@ -1,0 +1,19 @@
+uuid: ee95275d-fb2e-4cf2-b597-4366376b1eca
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dqI-XipeZrDntme6wMtKfajRNwZxnrWSzleCgmAH8_8
+id: title
+label: Title
+description: ''
+type: individual_element
+group: ''
+default: 1
+internal_title: 0
+override_title_label: ''
+icon: 'fa fa-heading'
+collection:
+  enabled: 0
+related_bundles: null
+weight: '6'

@@ -1,0 +1,58 @@
+uuid: 17e73dfb-c96f-49cf-b353-c417d4739b79
+langcode: nl
+status: true
+dependencies:
+  config:
+    - bo.bundle.popup
+    - field.field.bo.popup.field_button_caption
+    - field.field.bo.popup.field_show_header
+    - field.field.bo.popup.field_size
+_core:
+  default_config_hash: 0MXovB9QCd7TgTmSRh_vrf5FPjHIc90U483NHolRZNA
+id: bo.popup.default
+targetEntityType: bo
+bundle: popup
+mode: default
+content:
+  field_button_caption:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_show_header:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_size:
+    type: options_select
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  size:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  type:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: e95674f6-b4e0-427c-8a6c-7b49846d4c12
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qVe799ef2GNH1_xs_HyeiTv1k8LtInNPVyTMi075UME
+id: text
+label: Text
+description: ''
+type: individual_element
+group: ''
+default: 1
+internal_title: 1
+override_title_label: ''
+icon: 'fa fa-align-left'
+collection:
+  enabled: 0
+related_bundles: null
+weight: '-2'

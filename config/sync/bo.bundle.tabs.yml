@@ -1,0 +1,52 @@
+uuid: 0ba28cd6-27e5-4c8f-93c4-309124ae01a6
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QeaxCOSQJ9TE3xUwTB8T-H3tpB1z0Pr6iLqBecqQ9K4
+id: tabs
+label: Tabs
+description: ''
+type: structure_element
+group: ''
+default: 1
+internal_title: 1
+override_title_label: ''
+icon: 'fa fa-folder'
+collection:
+  enabled: 1
+  bundles:
+    buttons: 0
+    ggl_map: 0
+    card: 0
+    section: 0
+    slideshow: 0
+    tab: 1
+    table: 0
+    table_row: 0
+    tabs: 0
+    grid: 0
+    text: 0
+    quote: 0
+    video: 0
+    gallery: 0
+    accordion_item: 0
+    image: 0
+    accordion: 0
+    document: 0
+    title: 0
+    popup: 0
+    google_map: 0
+    webform: 0
+    cards: 0
+    article: 0
+  options:
+    label: Tabs
+    max_element_count: ''
+    reload: 0
+    specific_view: bo__tabs
+    disable_bundle_label: 1
+    ignore_current_path: 0
+    disable_insert: 1
+related_bundles: null
+weight: '-4'

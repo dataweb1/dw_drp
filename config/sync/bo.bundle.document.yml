@@ -1,0 +1,19 @@
+uuid: 883984de-2685-4292-82c4-2eaecbfd2b66
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: JEZHTjeqtgP_7hIUliunfovwr9wogo_9tsfN5nAkO8s
+id: document
+label: Document
+description: ''
+type: individual_element
+group: ''
+default: 1
+internal_title: 0
+override_title_label: ''
+icon: 'fa fa-file'
+collection:
+  enabled: 0
+related_bundles: null
+weight: '5'

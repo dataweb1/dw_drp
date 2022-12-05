@@ -1,0 +1,10 @@
+uuid: a2aed2d7-72c3-44e3-8418-6c79415ceec4
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zglzjmYxi0G0ag9MZ02y0LSJOdpWRwJxyP_OvFojFyo
+id: basic
+label: Standaardblok
+revision: 0
+description: 'Een standaardblok bevat een titel en een berichttekst.'

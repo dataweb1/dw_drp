@@ -1,0 +1,22 @@
+uuid: 17f0b1fd-91ba-4b87-b55e-b777ee49b8af
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: olivero_powered
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Gebouwd met Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

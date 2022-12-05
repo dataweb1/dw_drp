@@ -1,0 +1,46 @@
+uuid: 167a22b6-d47f-43cd-afaa-f7175f02b378
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: l8t7EOeB9jXwBFeZAPa_n4j_BD0Kc4Ob6Uiu4q_hPnY
+id: accordion_item
+label: 'Accordion item'
+description: ''
+type: structure_element
+group: ''
+default: 0
+internal_title: 0
+override_title_label: ''
+icon: 'fa fa-arrows-alt-v'
+collection:
+  enabled: 1
+  bundles:
+    card: 0
+    section: 1
+    slideshow: 1
+    tab: 0
+    table: 1
+    table_row: 0
+    tabs: 1
+    grid: 1
+    text: 1
+    quote: 1
+    video: 1
+    gallery: 1
+    accordion_item: 0
+    image: 1
+    accordion: 1
+    document: 1
+    title: 1
+    popup: 1
+    google_map: 1
+    cards: 1
+    webform: 1
+    article: 0
+  options:
+    label: 'Accordion item'
+    max_element_count: ''
+    specific_view: bo__overview
+related_bundles: null
+weight: '2'

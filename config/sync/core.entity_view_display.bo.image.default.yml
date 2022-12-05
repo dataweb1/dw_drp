@@ -1,0 +1,42 @@
+uuid: aecc41d2-7b17-4432-bf00-56c70d08be94
+langcode: nl
+status: true
+dependencies:
+  config:
+    - bo.bundle.image
+    - field.field.bo.image.field_image
+_core:
+  default_config_hash: QOXGFIUyLoud_Mc_SCVyqK0RGUHGoXS1xbINB7Yca1s
+id: bo.image.default
+targetEntityType: bo
+bundle: image
+mode: default
+content:
+  field_image:
+    type: entity_reference_entity_view
+    weight: 6
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: 1
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  weight:
+    label: hidden
+    region: content
+    weight: 5
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+hidden:
+  langcode: true

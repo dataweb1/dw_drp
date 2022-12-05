@@ -1,0 +1,21 @@
+uuid: f03f463d-a848-4214-ab2e-b21959761778
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.page.body
+    - node.type.page
+  module:
+    - user
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.search_index
+targetEntityType: node
+bundle: page
+mode: search_index
+content: {  }
+hidden:
+  body: true
+  langcode: true
+  links: true

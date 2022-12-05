@@ -1,0 +1,20 @@
+uuid: dcb5305e-5076-40dc-99b7-e049a9a64bf8
+langcode: nl
+status: true
+dependencies:
+  module:
+    - mailchimp_subscribe
+  theme:
+    - dw_drp_base
+id: dw_drp_base_subscribeformblock
+theme: dw_drp_base
+region: footer
+weight: -2
+provider: null
+plugin: subscribe_form_block
+settings:
+  id: subscribe_form_block
+  label: 'Subscribe Form block'
+  label_display: '0'
+  provider: mailchimp_subscribe
+visibility: {  }

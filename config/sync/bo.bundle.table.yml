@@ -1,0 +1,45 @@
+uuid: b6447634-7ab4-4ed5-9586-5e67eb81ca84
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 14-it9BdS_z-p-dpfwV0GyGIFFwyn5AC9VtbUjFUDi8
+id: table
+label: Table
+description: ''
+type: structure_element
+group: ''
+default: 0
+internal_title: 1
+override_title_label: ''
+icon: 'fa fa-columns'
+collection:
+  enabled: 1
+  bundles:
+    google_map: 0
+    webform: 0
+    card: 0
+    cards: 0
+    section: 0
+    slideshow: 0
+    tab: 0
+    table: 0
+    table_row: 1
+    tabs: 0
+    grid: 0
+    text: 0
+    quote: 0
+    video: 0
+    gallery: 0
+    accordion_item: 0
+    image: 0
+    accordion: 0
+    document: 0
+    title: 0
+    popup: 0
+    article: 0
+  options:
+    max_element_count: ''
+    specific_view: bo__table
+related_bundles: null
+weight: '-6'

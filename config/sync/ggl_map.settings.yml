@@ -1,0 +1,114 @@
+_core:
+  default_config_hash: q8cDspCsP7USRFAkQ5LP34RFa7clVK3Me6rYxpmII2o
+google_maps_api:
+  languagage: en
+  googleAPIkey: GOOGLE_MAP_KEY
+project:
+  debugging: false
+map:
+  maxZoom: 15
+  minZoom: 9
+  zoom: 10
+  zoomControl: true
+  zoomControlOptions:
+    position: google.maps.ControlPosition.TOP_LEFT
+  scaleControl: true
+  streetViewControl: false
+  rotateControl: false
+  fullscreenControl: false
+  scrollwheel: false
+  mapTypeControlOptions:
+    mapTypeIds: google.maps.MapTypeId.ROADMAP
+    style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR
+    position: google.maps.ControlPosition.TOP_LEFT
+  center:
+    lat: 51.076282763688
+    lng: 5.5492393766301
+  fitMapToMarkers: false
+  styles:
+    -
+      featureType: administrative
+      elementType: labels.text.fill
+      stylers:
+        -
+          color: '#444444'
+    -
+      featureType: landscape
+      elementType: all
+      stylers:
+        -
+          color: '#f2f2f2'
+    -
+      featureType: poi
+      elementType: all
+      stylers:
+        -
+          visibility: 'off'
+    -
+      featureType: road
+      elementType: all
+      stylers:
+        -
+          saturation: -100
+        -
+          lightness: 45
+    -
+      featureType: road.highway
+      elementType: all
+      stylers:
+        -
+          visibility: simplified
+    -
+      featureType: road.arterial
+      elementType: labels.icon
+      stylers:
+        -
+          visibility: 'off'
+    -
+      featureType: transit
+      elementType: all
+      stylers:
+        -
+          visibility: 'off'
+    -
+      featureType: water
+      elementType: all
+      stylers:
+        -
+          color: '#e0eaea'
+        -
+          visibility: 'on'
+marker:
+  icon:
+    url: '{MODULE_PATH}/images/marker_default.svg'
+    height: 30
+    width: 30
+  popupLoadingClass: is-b-loading
+  onOpenPopup:
+    centerToMarker: false
+    zoomToMarker: false
+    zoomLevel: 15
+collection:
+  toggleOnLoad: true
+  limitToBounds: false
+location:
+  enableCurrentLocation: false
+  enableSearchLocation: false
+  currentLocationIcon:
+    url: '{MODULE_PATH}/images/current-location.svg'
+    height: 30
+    width: 30
+cluster:
+  enableClustering: false
+  maxZoom: 14
+  gridSize: 100
+  averageCenter: true
+  styles:
+    -
+      url: '{MODULE_PATH}/images/cluster.svg'
+      width: 70
+      height: 70
+      fontFamily: 'comic sans ms'
+      textSize: 23
+      textColor: white
+langcode: nl

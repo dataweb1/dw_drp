@@ -1,0 +1,23 @@
+uuid: 398ac4bb-1d07-4b73-8451-0cfdf8e2b3c7
+langcode: nl
+status: true
+dependencies:
+  config:
+    - bo.bundle.quote
+    - field.storage.bo.field_text
+  module:
+    - text
+_core:
+  default_config_hash: NWVF7aQmo5vxBpwA3aMPwuXenRxKpMOzgeag2_2qtpA
+id: bo.quote.field_text
+field_name: field_text
+entity_type: bo
+bundle: quote
+label: Quote
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

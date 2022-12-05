@@ -1,0 +1,12 @@
+uuid: d49997e5-f43f-4d5a-a2c1-1a5388df76d8
+langcode: nl
+status: true
+dependencies: {  }
+label: Liggend
+id: landscape
+description: ''
+aspect_ratio: '4:3'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

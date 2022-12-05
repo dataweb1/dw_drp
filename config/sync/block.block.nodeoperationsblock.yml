@@ -1,0 +1,20 @@
+uuid: 65ed6fac-e5e8-4236-95dc-619d63f67e9f
+langcode: nl
+status: true
+dependencies:
+  module:
+    - bo
+  theme:
+    - olivero
+id: nodeoperationsblock
+theme: olivero
+region: highlighted
+weight: 0
+provider: null
+plugin: node_operations_block
+settings:
+  id: node_operations_block
+  label: 'Node Operations block'
+  label_display: '0'
+  provider: bo
+visibility: {  }

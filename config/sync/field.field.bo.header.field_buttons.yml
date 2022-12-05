@@ -1,0 +1,23 @@
+uuid: c1715bad-bbba-45dd-9db3-f8d5685569dc
+langcode: nl
+status: true
+dependencies:
+  config:
+    - bo.bundle.header
+    - field.storage.bo.field_buttons
+  module:
+    - link
+id: bo.header.field_buttons
+field_name: field_buttons
+entity_type: bo
+bundle: header
+label: Knop(pen)
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

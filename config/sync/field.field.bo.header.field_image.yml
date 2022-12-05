@@ -1,0 +1,29 @@
+uuid: 94586ebd-a0bd-48af-a654-5eb3e127728b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - bo.bundle.header
+    - field.storage.bo.field_image
+    - media.type.image
+id: bo.header.field_image
+field_name: field_image
+entity_type: bo
+bundle: header
+label: 'Achtergrond beeld'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

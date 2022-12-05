@@ -1,0 +1,19 @@
+uuid: a1d278ba-64d6-4c07-a790-de5da91d8367
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: g0T-yhBHLG4h6GI-klD3jI04bsIPxIXrmaCrokmZKUI
+id: slideshow
+label: Slideshow
+description: ''
+type: individual_element
+group: ''
+default: 1
+internal_title: 0
+override_title_label: ''
+icon: 'fa fa-film'
+collection: 0
+related_bundles:
+  - gallery
+weight: '-8'

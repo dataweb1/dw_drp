@@ -1,0 +1,22 @@
+uuid: 131f3a6e-6a0a-4dc4-b076-9a5d9df4ea87
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dw_drp_base
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: dw_drp_base_content
+theme: dw_drp_base
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Primaire inhoud van de pagina'
+  label_display: '0'
+  provider: system
+visibility: {  }

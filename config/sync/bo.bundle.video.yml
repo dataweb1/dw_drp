@@ -1,0 +1,19 @@
+uuid: 6b5e6727-3ebf-4967-a578-50d37704d758
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ix-UYPNaO5QV9RrQTkxRrGZFQPfhcAi5l5jOZtekK0k
+id: video
+label: Video
+description: ''
+type: individual_element
+group: ''
+default: 1
+internal_title: 0
+override_title_label: ''
+icon: 'fa fa-play'
+collection:
+  enabled: 0
+related_bundles: null
+weight: '0'

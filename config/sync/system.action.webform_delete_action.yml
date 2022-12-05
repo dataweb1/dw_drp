@@ -1,0 +1,13 @@
+uuid: 6c4f71bb-3b23-45bc-8c2a-dc5e37dc4c92
+langcode: nl
+status: true
+dependencies:
+  module:
+    - webform
+_core:
+  default_config_hash: e1bCTp0ryXZZtnS9nlVAbtoWz3-8fmbNlqKY3GHzbsM
+id: webform_delete_action
+label: 'Webformulier verwijderen'
+type: webform
+plugin: webform_delete_action
+configuration: {  }
