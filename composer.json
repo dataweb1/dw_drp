@@ -19,7 +19,7 @@
         "drush/drush": "^11.2",
         "drupal/devel": "^4.1",
         "drupal/devel_kint_extras": "^1.0",
-        "drupal/multiple_fields_remove_button": "^1.0@alpha",
+        "drupal/multiple_fields_remove_button": "^2.0",
         "drupal/advagg": "^5.0",
         "drupal/admin_toolbar": "^3.2",
         "cweagans/composer-patches": "^1.7",
