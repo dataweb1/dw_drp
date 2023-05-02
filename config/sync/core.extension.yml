@@ -3,8 +3,6 @@ _core:
 langcode: nl
 module:
   admin_toolbar: 0
-  admin_toolbar_links_access_filter: 0
-  admin_toolbar_tools: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -35,12 +33,15 @@ module:
   filter: 0
   ggl_map: 0
   ggl_map_examples: 0
+  gin_toolbar: 0
   global_search: 0
   help: 0
   history: 0
+  ief_popup: 0
   image: 0
   image_url_formatter: 0
   image_widget_crop: 0
+  inline_entity_form: 0
   language: 0
   link: 0
   locale: 0
@@ -71,12 +72,10 @@ module:
   twig_tweak: 0
   update: 0
   user: 0
-  views_bootstrap: 0
   views_ui: 0
   webform: 0
   webform_ui: 0
   webp: 0
-  yaml_editor: 0
   content_translation: 10
   views: 10
   dw_drp: 1000
@@ -85,4 +84,5 @@ theme:
   claro: 0
   stable9: 0
   dw_drp_base: 0
+  gin: 0
 profile: dw_drp
