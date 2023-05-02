@@ -2,7 +2,7 @@ _core:
   default_config_hash: q8cDspCsP7USRFAkQ5LP34RFa7clVK3Me6rYxpmII2o
 google_maps_api:
   languagage: en
-  googleAPIkey: GOOGLE_MAP_KEY
+  googleAPIkey: AIzaSyA9dEH3g8cV14aO5X6X0mxi3tce0vl1v6E
 project:
   debugging: false
 map:

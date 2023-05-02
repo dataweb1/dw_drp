@@ -1,15 +1,15 @@
-uuid: 04091bf5-879c-4aec-8960-8d5c7cc334a2
+uuid: 98b37c2a-392e-4889-9d95-011bb9f91f8c
 langcode: nl
 status: true
 dependencies:
   module:
     - system
   theme:
-    - claro
+    - gin
 _core:
-  default_config_hash: '-Ac3ISpIT0PQ-whzD7_dw0SdKi6dAbRFNWdSjOiVDqg'
-id: claro_messages
-theme: claro
+  default_config_hash: WvPhI8OwllG0gE69-F8qL3ai3nd5SbYD6JpmEuZcyok
+id: gin_messages
+theme: gin
 region: highlighted
 weight: 0
 provider: null

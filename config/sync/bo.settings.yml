@@ -105,8 +105,8 @@ config:
         text: 1
         quote: 0
         video: 0
-        gallery: 0
-        image: 0
+        gallery: 1
+        image: 1
         document: 1
         title: 0
         popup: 0
@@ -238,7 +238,7 @@ config:
         disable_size: 0
         small_operations: 1
         specific_view: bo__overview
-  google_translate_key: GOOGLE_TRANSLATE_KEY
+  google_translate_key: AIzaSyAzs-lTj0bBSeqavHL61TT8u02DtMbdfTU
   google_translate_enabled: true
   google_maps_key: ''
   load_bootstrap: false

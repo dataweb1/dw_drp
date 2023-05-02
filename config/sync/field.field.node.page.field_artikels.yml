@@ -1,0 +1,29 @@
+uuid: 1c74e12f-8672-4abd-8548-abfc0bb81d12
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_artikels
+    - node.type.article
+    - node.type.page
+id: node.page.field_artikels
+field_name: field_artikels
+entity_type: node
+bundle: page
+label: Artikels
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

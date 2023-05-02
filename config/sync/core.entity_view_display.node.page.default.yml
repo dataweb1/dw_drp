@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_artikels
     - node.type.page
   module:
     - user
@@ -13,8 +14,17 @@ id: node.page.default
 targetEntityType: node
 bundle: page
 mode: default
-content: {  }
+content:
+  field_artikels:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   body: true
   langcode: true
   links: true
+  search_api_excerpt: true
