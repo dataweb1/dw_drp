@@ -33,7 +33,12 @@
         "drupal/pathauto": "^1.11",
         "drupal/simple_sitemap": "^4.1",
         "drupal/yoast_seo": "^1.7",
-        "drupal/image_widget_crop": "^2.3"
+        "drupal/image_widget_crop": "^2.3",
+        "drupal/gin": "^3.0",
+        "drupal/gin_toolbar": "^1.0",
+        "drupal/claro_media_library_theme": "^1.0",
+        "drupal/inline_entity_form": "^1.0",
+        "drupal/ief_popup": "^2.1"
     },
     "license": "GPL-2.0-or-later",
     "authors": [
